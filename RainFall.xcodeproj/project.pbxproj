@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96FBDDCC21EFEA24006F9378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBDDCB21EFEA24006F9378 /* AppDelegate.swift */; };
+		96FBDDCE21EFEA24006F9378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBDDCD21EFEA24006F9378 /* ViewController.swift */; };
+		96FBDDD121EFEA24006F9378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FBDDCF21EFEA24006F9378 /* Main.storyboard */; };
+		96FBDDD321EFEA27006F9378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FBDDD221EFEA27006F9378 /* Assets.xcassets */; };
+		96FBDDD621EFEA27006F9378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FBDDD421EFEA27006F9378 /* LaunchScreen.storyboard */; };
+		96FBDDE121EFEA27006F9378 /* RainFallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBDDE021EFEA27006F9378 /* RainFallTests.swift */; };
+		96FBDDEC21EFEA27006F9378 /* RainFallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBDDEB21EFEA27006F9378 /* RainFallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96FBDDDD21EFEA27006F9378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96FBDDC021EFEA24006F9378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FBDDC721EFEA24006F9378;
+			remoteInfo = RainFall;
+		};
+		96FBDDE821EFEA27006F9378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96FBDDC021EFEA24006F9378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FBDDC721EFEA24006F9378;
+			remoteInfo = RainFall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96FBDDC821EFEA24006F9378 /* RainFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FBDDCB21EFEA24006F9378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96FBDDCD21EFEA24006F9378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96FBDDD021EFEA24006F9378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96FBDDD221EFEA27006F9378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96FBDDD521EFEA27006F9378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96FBDDD721EFEA27006F9378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FBDDDC21EFEA27006F9378 /* RainFallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainFallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FBDDE021EFEA27006F9378 /* RainFallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainFallTests.swift; sourceTree = "<group>"; };
+		96FBDDE221EFEA27006F9378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FBDDE721EFEA27006F9378 /* RainFallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainFallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FBDDEB21EFEA27006F9378 /* RainFallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainFallUITests.swift; sourceTree = "<group>"; };
+		96FBDDED21EFEA27006F9378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96FBDDC521EFEA24006F9378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FBDDD921EFEA27006F9378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FBDDE421EFEA27006F9378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96FBDDBF21EFEA24006F9378 = {
+			isa = PBXGroup;
+			children = (
+				96FBDDCA21EFEA24006F9378 /* RainFall */,
+				96FBDDDF21EFEA27006F9378 /* RainFallTests */,
+				96FBDDEA21EFEA27006F9378 /* RainFallUITests */,
+				96FBDDC921EFEA24006F9378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96FBDDC921EFEA24006F9378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FBDDC821EFEA24006F9378 /* RainFall.app */,
+				96FBDDDC21EFEA27006F9378 /* RainFallTests.xctest */,
+				96FBDDE721EFEA27006F9378 /* RainFallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96FBDDCA21EFEA24006F9378 /* RainFall */ = {
+			isa = PBXGroup;
+			children = (
+				96FBDDCB21EFEA24006F9378 /* AppDelegate.swift */,
+				96FBDDCD21EFEA24006F9378 /* ViewController.swift */,
+				96FBDDCF21EFEA24006F9378 /* Main.storyboard */,
+				96FBDDD221EFEA27006F9378 /* Assets.xcassets */,
+				96FBDDD421EFEA27006F9378 /* LaunchScreen.storyboard */,
+				96FBDDD721EFEA27006F9378 /* Info.plist */,
+			);
+			path = RainFall;
+			sourceTree = "<group>";
+		};
+		96FBDDDF21EFEA27006F9378 /* RainFallTests */ = {
+			isa = PBXGroup;
+			children = (
+				96FBDDE021EFEA27006F9378 /* RainFallTests.swift */,
+				96FBDDE221EFEA27006F9378 /* Info.plist */,
+			);
+			path = RainFallTests;
+			sourceTree = "<group>";
+		};
+		96FBDDEA21EFEA27006F9378 /* RainFallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96FBDDEB21EFEA27006F9378 /* RainFallUITests.swift */,
+				96FBDDED21EFEA27006F9378 /* Info.plist */,
+			);
+			path = RainFallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96FBDDC721EFEA24006F9378 /* RainFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FBDDF021EFEA27006F9378 /* Build configuration list for PBXNativeTarget "RainFall" */;
+			buildPhases = (
+				96FBDDC421EFEA24006F9378 /* Sources */,
+				96FBDDC521EFEA24006F9378 /* Frameworks */,
+				96FBDDC621EFEA24006F9378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainFall;
+			productName = RainFall;
+			productReference = 96FBDDC821EFEA24006F9378 /* RainFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96FBDDDB21EFEA27006F9378 /* RainFallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FBDDF321EFEA27006F9378 /* Build configuration list for PBXNativeTarget "RainFallTests" */;
+			buildPhases = (
+				96FBDDD821EFEA27006F9378 /* Sources */,
+				96FBDDD921EFEA27006F9378 /* Frameworks */,
+				96FBDDDA21EFEA27006F9378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96FBDDDE21EFEA27006F9378 /* PBXTargetDependency */,
+			);
+			name = RainFallTests;
+			productName = RainFallTests;
+			productReference = 96FBDDDC21EFEA27006F9378 /* RainFallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96FBDDE621EFEA27006F9378 /* RainFallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FBDDF621EFEA27006F9378 /* Build configuration list for PBXNativeTarget "RainFallUITests" */;
+			buildPhases = (
+				96FBDDE321EFEA27006F9378 /* Sources */,
+				96FBDDE421EFEA27006F9378 /* Frameworks */,
+				96FBDDE521EFEA27006F9378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96FBDDE921EFEA27006F9378 /* PBXTargetDependency */,
+			);
+			name = RainFallUITests;
+			productName = RainFallUITests;
+			productReference = 96FBDDE721EFEA27006F9378 /* RainFallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96FBDDC021EFEA24006F9378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Esteban Ordonez";
+				TargetAttributes = {
+					96FBDDC721EFEA24006F9378 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					96FBDDDB21EFEA27006F9378 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 96FBDDC721EFEA24006F9378;
+					};
+					96FBDDE621EFEA27006F9378 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 96FBDDC721EFEA24006F9378;
+					};
+				};
+			};
+			buildConfigurationList = 96FBDDC321EFEA24006F9378 /* Build configuration list for PBXProject "RainFall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96FBDDBF21EFEA24006F9378;
+			productRefGroup = 96FBDDC921EFEA24006F9378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FBDDC721EFEA24006F9378 /* RainFall */,
+				96FBDDDB21EFEA27006F9378 /* RainFallTests */,
+				96FBDDE621EFEA27006F9378 /* RainFallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FBDDC621EFEA24006F9378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FBDDD621EFEA27006F9378 /* LaunchScreen.storyboard in Resources */,
+				96FBDDD321EFEA27006F9378 /* Assets.xcassets in Resources */,
+				96FBDDD121EFEA24006F9378 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FBDDDA21EFEA27006F9378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FBDDE521EFEA27006F9378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96FBDDC421EFEA24006F9378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FBDDCE21EFEA24006F9378 /* ViewController.swift in Sources */,
+				96FBDDCC21EFEA24006F9378 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FBDDD821EFEA27006F9378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FBDDE121EFEA27006F9378 /* RainFallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FBDDE321EFEA27006F9378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FBDDEC21EFEA27006F9378 /* RainFallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96FBDDDE21EFEA27006F9378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FBDDC721EFEA24006F9378 /* RainFall */;
+			targetProxy = 96FBDDDD21EFEA27006F9378 /* PBXContainerItemProxy */;
+		};
+		96FBDDE921EFEA27006F9378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FBDDC721EFEA24006F9378 /* RainFall */;
+			targetProxy = 96FBDDE821EFEA27006F9378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96FBDDCF21EFEA24006F9378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FBDDD021EFEA24006F9378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96FBDDD421EFEA27006F9378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FBDDD521EFEA27006F9378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96FBDDEE21EFEA27006F9378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96FBDDEF21EFEA27006F9378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96FBDDF121EFEA27006F9378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Banx.RainFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96FBDDF221EFEA27006F9378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Banx.RainFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96FBDDF421EFEA27006F9378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainFallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Banx.RainFallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainFall.app/RainFall";
+			};
+			name = Debug;
+		};
+		96FBDDF521EFEA27006F9378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainFallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Banx.RainFallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainFall.app/RainFall";
+			};
+			name = Release;
+		};
+		96FBDDF721EFEA27006F9378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Banx.RainFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainFall;
+			};
+			name = Debug;
+		};
+		96FBDDF821EFEA27006F9378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Banx.RainFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainFall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96FBDDC321EFEA24006F9378 /* Build configuration list for PBXProject "RainFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FBDDEE21EFEA27006F9378 /* Debug */,
+				96FBDDEF21EFEA27006F9378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FBDDF021EFEA27006F9378 /* Build configuration list for PBXNativeTarget "RainFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FBDDF121EFEA27006F9378 /* Debug */,
+				96FBDDF221EFEA27006F9378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FBDDF321EFEA27006F9378 /* Build configuration list for PBXNativeTarget "RainFallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FBDDF421EFEA27006F9378 /* Debug */,
+				96FBDDF521EFEA27006F9378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FBDDF621EFEA27006F9378 /* Build configuration list for PBXNativeTarget "RainFallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FBDDF721EFEA27006F9378 /* Debug */,
+				96FBDDF821EFEA27006F9378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96FBDDC021EFEA24006F9378 /* Project object */;
+}
